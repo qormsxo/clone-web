@@ -2,60 +2,55 @@
     display: block;
 }
 
-.dchead{
+.dc{
     position: relative;
-    width: 1150px;
-    height: 100px;
-    margin: 0 auto;
+    left : 364px;
+    top : -13px;
 }
-.dcLogo{
-    position: absolute;
-    left: 0;
+.ga{
+    position: relative;
+    left : 263px;
+    top : -13px;
 }
 
-.dcLogo a{
-    display: block;
-    float:left;
+.kim{
+    position: relative;
+    left : 392px;
+    top : 7px;
 }
 
 .search{
-    position: absolute;
-    left: 800px;
-    top: 40px;
-    width: 450px;
-    height: 45px;
-    border: 1px solid blue;
-    background: blue;
-    float: left;
-}
+    position: relative;
+    left : 750px;
+    top : -63px;
 
-.in{
-    width: 450px;
-    float: left;
-    background: #fff;
-    margin: 5px 0 0 5px;
+    width : 454px;
+    height : 46px;
+    background-color : #4a57a8;
 }
+.white{
+    position: relative;
+    width : 400px;
+    height: 34px;
+    background:white;
+    left: 6px;
+    top : 6px;
 
-.searchIn{
-    width: 340px;
-    height: 35px;
-    padding: 0 10px;
+}
+.dinput{
+    width: 336px;
+    height: 34px;
+    padding: 0 9px;
     border: none;
     background: transparent;
     outline: none;
     color: #333;
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
-}
-.btn_search{
-    position: absolute;
-    width: 45px;
-    height: 44px;
-    left:1210px;
-    top: 40px;
-    background-position: 0 -89px;
-}
-.btn_img{
-    background-image: url(https://nstatic.dcinside.com/dc/w/images/sp/sp_img.png);
-    background-repeat: no-repeat;
+.dc_s{
+    position: relative;
+    left: 410px;
+    top : -30px;
 }
