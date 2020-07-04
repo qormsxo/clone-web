@@ -1,3 +1,21 @@
+a{
+    text-decoration: none;
+}
+body{
+    width: 370px;
+    height: 2450px;
+    font-family: Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+li{
+    display: inline-block;
+}
+li,a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
 .dcheader{
     display: block;
 }
@@ -53,4 +71,78 @@
     position: relative;
     left: 410px;
     top : -30px;
+
 }
+
+ul{
+    list-style-type: none;
+}
+
+.headM{
+    position: relative;
+    top: -159px;
+    left: 1225px;
+}
+
+.headM a{
+    font-size: 11px;
+    font-family: Dotum,'돋움',Helvetica,"Apple SD Gothic Neo",sans-serif;;
+}
+
+
+li:hover{
+    text-decoration: underline;
+}
+.li1:hover{
+    text-decoration: underline;
+}
+.li1::before{
+    content: "|";
+    color: #ccc;
+    font-size: 11px;
+    line-height: 11px;
+    padding: 0 3px 0 5px;
+
+}
+
+.login{
+    position: relative;
+    left: 2px ;
+    top: 3px;
+    display: inline-block;
+    background: #4a57a8;
+    padding: 0 3px;
+    height: 16px;
+    line-height: 18px;
+    vertical-align: top;
+    border: 1px solid #3c4790;
+    color: #fff;
+    font-size: 11px;
+}
+
+.garo{
+    position: relative;
+    top : -100px;
+}
+
+.garo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4a57a8;
+    width: 1895px;
+ 
+  
+}
+
+.garo a{
+    position: relative;
+    left: 350px;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
