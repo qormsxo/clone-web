@@ -9,11 +9,15 @@ body{
 li{
     display: inline-block;
 }
-li,a{
+li,a,p{
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+
+
+
 
 
 .dcheader{
@@ -90,9 +94,13 @@ ul{
 }
 
 
-li:hover{
-    text-decoration: underline;
-}
+
+
+
+
+
+
+
 .li1:hover{
     text-decoration: underline;
 }
@@ -120,9 +128,15 @@ li:hover{
     font-size: 11px;
 }
 
+
+
+
+
+
+
 .garo{
     position: relative;
-    top : -100px;
+    top : -90px;
 }
 
 .garo ul{
@@ -139,10 +153,37 @@ li:hover{
 .garo a{
     position: relative;
     left: 350px;
+    color:white;
     display: block;
-    color: white;
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
 }
+
+
+
+.li2 li:hover{
+    text-decoration: underline;
+}
+
+.li3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: inline;
+    list-style: none;
+}
+
+
+.dropClass{
+    position: relative;
+    left: 350px;
+    color:yellow;
+    display: block;
+    padding:16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
