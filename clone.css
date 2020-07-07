@@ -262,7 +262,68 @@ ul{
 }
 
 
+.headright {
+    position: relative;
+    left: 1200px;
+    top:-190px;
+    border-style: solid;
+    border-color: #4a57a8;
+    border-width: 1px;
+    position: relative;
+    width: 300px;
+    height: 85px;
+}
 
+h4{
+    font-size: 14px;
+    left: 20px;
+    position: relative;
+    top :-35px;
+    color:#4a57a8;
+}
+
+.headrightM{
+    position: relative;
+    top:-40px;
+    background-color: #EFEFEF;
+    height: 40px;
+}
+
+.headrightM p {
+    font-size: 13px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 38px;
+
+}
+.headrightM a{
+    font-size: 13px;
+    display: inline-block;
+    font-weight: bold;
+    position: relative;
+    top : 10px;
+    left: 38px;
+}
+
+
+.headrightM p::before{
+    content: "|";
+    color: #ccc;
+    font-size: 11px;
+    line-height: 11px;
+    padding: 0 18px 0 13px;
+
+}
+
+.headrightM a:hover{
+    text-decoration: underline;
+}
+
+.headrightM p:hover{
+    text-decoration: underline;
+}
 
 
 
